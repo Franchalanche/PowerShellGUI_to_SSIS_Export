@@ -17,4 +17,16 @@ This PowerShell tool provides a simple Windows Forms interface for generating co
 - Optionally used to pass parameters to SSIS packages (see future release)
 
 ## 🗂️ File Structure
+├── ContractExport_GUI.ps1 # Main PowerShell script with GUI
+├── README.md # Project documentation
+└── sql/ # Optional folder for raw queries
 
+## 🚀 Requirements
+
+- Windows with PowerShell 5.1+
+- SQL Server access (`Integrated Security`)
+- [ImportExcel module](https://github.com/dfinke/ImportExcel)
+
+To install:
+```powershell
+Install-Module ImportExcel -Scope CurrentUser
