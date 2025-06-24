@@ -18,7 +18,9 @@ This PowerShell tool provides a simple Windows Forms interface for generating co
 
 ## 🗂️ File Structure
 ├── ContractExport_GUI.ps1 # Main PowerShell script with GUI
+
 ├── README.md # Project documentation
+
 └── sql/ # Optional folder for raw queries
 
 ## 🚀 Requirements
