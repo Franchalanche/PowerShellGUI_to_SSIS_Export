@@ -9,14 +9,14 @@ $form.StartPosition = "CenterScreen"
 
 # Contract filter
 $label1 = New-Object System.Windows.Forms.Label
-$label1.Text = "Enter Contract Filter (e.g., YOUR_CLIENT_HERE)"
+$label1.Text = "Enter Contract Filter (e.g., assurant)"
 $label1.Location = New-Object System.Drawing.Point(10, 20)
 $form.Controls.Add($label1)
 
 $contractBox = New-Object System.Windows.Forms.TextBox
 $contractBox.Location = New-Object System.Drawing.Point(10, 40)
 $contractBox.Size = New-Object System.Drawing.Size(510, 20)
-$contractBox.Text = "<YOUR CLIENT HERE>"
+$contractBox.Text = "assurant"
 $form.Controls.Add($contractBox)
 
 # Check rollup button
@@ -66,7 +66,7 @@ $form.Controls.Add($labelPath)
 $pathBox = New-Object System.Windows.Forms.TextBox
 $pathBox.Location = New-Object System.Drawing.Point(10, 330)
 $pathBox.Size = New-Object System.Drawing.Size(510, 20)
-$pathBox.Text = " \\WINH\ClinicalInformatics\Client_Employer\<YOUR CLIENT HERE>\2025.04 Premier OA\"
+$pathBox.Text = " \\WINH\ClinicalInformatics\Client_Employer\assurant\2025.04 Premier OA\"
 $form.Controls.Add($pathBox)
 
 # Export button
@@ -150,7 +150,7 @@ UNPIVOT (
         $paramAvoid    = '/SET \Package.Variables[User::avoid].Properties[Value];"' + $avoid + '"'
         $paramPath     = '/SET \Package.Variables[User::filePath].Properties[Value];"' + $filePath + '"'
 
-        $ssisPackagePath = "C:\Users\<YOUR_NAME>\Downloads\DataExport\DataExport\Package.dtsx"
+        $ssisPackagePath = "C:\Users\fpiccorelli\Downloads\DataExport\DataExport\Package.dtsx"
         $dtexecPath = "C:\Program Files\Microsoft SQL Server\160\DTS\Binn\DTExec.exe"
 
         $args = @(
