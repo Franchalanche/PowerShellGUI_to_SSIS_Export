@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Excel Connection Manager"
+  DTS:DTSID="{5F016BB1-F633-4E54-9227-38EC48D340D8}"
+  DTS:CreationName="EXCEL">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="0"
+      DTS:ConnectRetryInterval="0"
+      DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\fpiccorelli\Downloads\VS_exports_template.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=NO&quot;;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
