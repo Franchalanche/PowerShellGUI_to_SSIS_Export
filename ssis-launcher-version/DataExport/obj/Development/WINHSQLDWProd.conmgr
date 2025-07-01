@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="WINHSQLDWProd"
+  DTS:DTSID="{8957559C-3BDA-4D31-AAC4-C388408E6BE0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=WINHSQLDWProd;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-DataExport-{8957559C-3BDA-4D31-AAC4-C388408E6BE0}WINHSQLDWProd;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

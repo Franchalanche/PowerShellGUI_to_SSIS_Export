@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WINH-FPICCOREL</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhQCGGrFuaU6FMB4Mz5GwUwAAAAACAAAAAAADZgAAwAAAABAAAADp/FaDIlAt3yC/NjbIqNRpAAAAAASAAACgAAAAEAAAAMwnypDP6oFDknHh45NV0y+IAAAAcfbw1bIf6ik4ceyTUG/0I3uzqJsIkUfKBnrLeIELJgLeyaLwNjEz6CXYOu7yQ/Tw+OTn8b01tM0mMQK5NGnJDVvA6CrFmSYg0d0kJmyn6y/JBh+Hdz1m6CK1AeAr9fXNF63GuQCBPg7v7aK1StHyLH9Bxkt2zucyf4CX/j5kP3InlgR2c/vtvBQAAADWmPDeY/m9yc03GKdjjX3fXfw+Jg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhQCGGrFuaU6FMB4Mz5GwUwAAAAACAAAAAAADZgAAwAAAABAAAACrbGnDtHjvvsL2fB+SjcmXAAAAAASAAACgAAAAEAAAABSeOqAB0fFmmqyAR5zEiY6IAAAA3XHdlTBCbEoXCGLiXdGiSsYG2fsit7iVX/XE3swSgm/lPASDHNYkc4ekV520S17laF0vfvbS8gQ0kPxShAdUiSGop9HQVkRwb+nvzdM0in/7+FT+CFPdzVx20ALY/blapG5QhIfHZflNMJnwD/bMGwFNUVdX8MrCoIjjdZLvP+D4n7AFXt8oGxQAAAC2+lArPXWxyWmxUenF9dV6rAEmmg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -211,7 +211,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\fpiccorelli\Downloads\VS_exports_template v2.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\fpiccorelli\Downloads\VS_exports_template v2.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
